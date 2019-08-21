@@ -1,0 +1,19 @@
+{
+  "name": "everyday-nasa-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot that will fetch pictures from the NASA API and post them on twitter everyday",
+  "main": "index.js",
+  "author": "Luis Vilchez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "url": "https://github.com/Luisdv93/everyday-nasa-bot"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "twit": "^2.2.11"
+  }
+}
